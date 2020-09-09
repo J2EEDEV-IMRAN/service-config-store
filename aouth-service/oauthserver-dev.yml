@@ -6,7 +6,7 @@ spring:
       url: jdbc:mysql://localhost:3306/authDB?createDatabaseIfNotExist=true
       username: admin
       password: admin4321
-      driver-class-name: com.mysql.jdbc.Driver
+      #driver-class-name: com.mysql.jdbc.Driver
       initialization-mode: always
       
       
