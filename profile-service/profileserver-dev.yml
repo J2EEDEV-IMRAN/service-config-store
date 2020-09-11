@@ -12,8 +12,7 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: create
-  application:
-    name: profile
+  
 security:
   oauth2:
     resource:
