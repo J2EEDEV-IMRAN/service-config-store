@@ -14,16 +14,16 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       #ddl-auto: create
   
-security:
-  oauth2:
-    resource:
-      token-info-uri: http://localhost:8051/oauth/check_token
-    client:
-      client-id: mobile
-      client-secret: pin
+#security:
+ # oauth2:
+  #  resource:
+   #   token-info-uri: http://localhost:8051/oauth/check_token
+    #client:
+     # client-id: mobile
+      #client-secret: pin
 
 
-#api:
-  #user-service:
-    #token:
-     # verify: http://localhost:8051/oauth/check_token
+api:
+  user-service:
+    token:
+      verify: http://localhost:8051/oauth/check_token
