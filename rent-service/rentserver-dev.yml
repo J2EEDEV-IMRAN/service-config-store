@@ -4,9 +4,9 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-  instance:
+  #instance:
    # instance-id: ${spring.application.name}-${random.int}
-     hostname: localhost
+     #hostname: localhost
  
 spring:
   datasource:
