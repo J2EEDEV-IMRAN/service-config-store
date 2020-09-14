@@ -23,6 +23,7 @@ jpa:
     naming:
       physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
      ddl-auto: update
+     
   properties:
     hibernate:
       show_sql: true
