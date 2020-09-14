@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8051
+  application:
+    name: profileserver
+  profiles:
+    active:
+    - dev
+    
