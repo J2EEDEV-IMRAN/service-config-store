@@ -26,4 +26,19 @@ spring:
 
 hystrix:
   timeout: 1000
+  
+  
+api:
+  user-service:
+    token:
+      verify: http://oauthserver/oauth/check_token
+
+
+#security:
+ # oauth2:
+  #  resource:
+   #   token-info-uri: http://localhost:8051/oauth/check_token
+    #client:
+     # client-id: mobile
+      #client-secret: pin
 
