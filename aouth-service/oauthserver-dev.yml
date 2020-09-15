@@ -1,15 +1,6 @@
 server:
   port: 8061
-  
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-  instance:
-    hostname: localhost
-    instance-id: ${spring.application.name}-${random.int}
-    
-    
+      
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/authDB?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
