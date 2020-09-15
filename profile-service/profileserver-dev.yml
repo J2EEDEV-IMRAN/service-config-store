@@ -30,7 +30,7 @@ hystrix:
 api:
   user-service:
     token:
-      verify: http://oauthserver/oauth/check_token
+      verify: http://localhost:8061/oauth/check_token
 
 
 #security:
