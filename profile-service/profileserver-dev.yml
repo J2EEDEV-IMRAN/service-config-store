@@ -16,17 +16,15 @@ spring:
     password: admin4321
     driver-class-name: com.mysql.jdbc.Driver
     #initialization-mode: always
-    
-  jpa:
-    hibernate:
+    jpa:
+      hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
       properties:
-    hibernate:
       show_sql: true
       format_sql: true
-
+ 
   logging:
     level:
       org:
