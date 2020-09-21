@@ -16,11 +16,7 @@ spring:
       properties:
       show_sql: true
       format_sql: true
-
-config:
-  security:
-    securityEnabled: 1
-  
+      
   logging:
     level:
       org:
